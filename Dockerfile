@@ -15,4 +15,4 @@ RUN npm init --yes \
     && npm install -g zenn-cli@latest \
     && npx zenn init
 
-CMD npm zenn preview
+CMD npx zenn preview
